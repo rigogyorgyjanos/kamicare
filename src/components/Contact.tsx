@@ -32,10 +32,12 @@ export default function Contact({
           {/* Bal oldal: adatok */}
           <div className="space-y-6  bg-white/60 backdrop-blur-sm ring-1 ring-black/5 p-6 sm:p-8 content-center ">
             <div className="flex flex-col gap-4 bg-[#c1c6c1] w-l items-center py-4 shadow-2xl">
-              <div className="flex gap-3 ">
-                <Phone className="mt-0.5 h-5 w-5 text-[#9a7142]" />
+              <div className="flex flex-col gap-3 ">
+                <div className="flex flex-row gap-2 items-end m-auto">
+                  <Phone className="mt-0.5 h-5 w-5 text-[#9a7142]" />
+                  <p className="text-sm uppercase tracking-wide text-[#9a7142] ">Telefon</p>
+                </div>
                 <div>
-                  <div className="text-sm uppercase tracking-wide text-[#9a7142]">Telefon</div>
                   <a
                     href={telHref}
                     className="text-lg font-semibold text-[#2b2a29] hover:underline"
@@ -45,10 +47,12 @@ export default function Contact({
                 </div>
               </div>
 
-              <div className="flex  gap-3">
-                <MapPin className="mt-0.5 h-5 w-5 text-[#9a7142]" />
+              <div className="flex flex-col  gap-3">
+                <div className="flex flex-row gap-2 items-end m-auto">
+                  <MapPin className="mt-0.5 h-5 w-5 text-[#9a7142]" />
+                  <p className="text-sm uppercase tracking-wide text-[#9a7142]">Cím</p>
+                </div>
                 <div>
-                  <div className="text-sm uppercase tracking-wide text-[#9a7142]">Cím</div>
                   <a
                     href={mapLink}
                     target="_blank"
