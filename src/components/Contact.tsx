@@ -40,7 +40,7 @@ export default function Contact({
                 <div>
                   <a
                     href={telHref}
-                    className="text-lg font-semibold text-[#2b2a29] hover:underline"
+                    className="text-lg  font-semibold text-[#2b2a29] hover:underline"
                   >
                     {phone}
                   </a>
@@ -50,14 +50,14 @@ export default function Contact({
               <div className="flex flex-col  gap-3">
                 <div className="flex flex-row gap-2 items-end m-auto">
                   <MapPin className="mt-0.5 h-5 w-5 text-[#9a7142]" />
-                  <p className="text-sm uppercase tracking-wide text-[#9a7142]">Cím</p>
+                  <p className="text-md uppercase tracking-wide text-[#9a7142]">Cím</p>
                 </div>
                 <div>
                   <a
                     href={mapLink}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-lg font-semibold text-[#2b2a29] hover:underline"
+                    className="text-sm font-semibold text-[#2b2a29] hover:underline"
                   >
                     {address}
                   </a>

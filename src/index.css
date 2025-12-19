@@ -1,18 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Great+Vibes&display=swap');
+
 @import "tailwindcss";
 
 
 :root {
     background-color: #C1C6C1;
-    font-family: "Roboto Condensed";
+    font-family: "Cormorant Garamond", serif;
     font-optical-sizing: auto;
     font-style: normal;
-
 }
 
 html {
     scroll-behavior: smooth;
 
+}
+
+body {
+    font-family: "Cormorant Garamond", serif;
+    text-shadow: 0px 1px 0px var(--tw-text-shadow-color, rgb(0 0 0 / 0.075)), 0px 1px 1px var(--tw-text-shadow-color, rgb(0 0 0 / 0.075)), 0px 2px 2px var(--tw-text-shadow-color, rgb(0 0 0 / 0.075));
+}
+
+.font-handwritten {
+    font-family: "Great Vibes", cursive;
 }
 
 .about-highlight {

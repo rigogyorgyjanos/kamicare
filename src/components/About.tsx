@@ -20,7 +20,6 @@ export default function About({
           <div
             className="
               relative
-              
               bg-[#e7d8bd]/50
               shadow-sm md:shadow-lg
               p-6 sm:p-8
@@ -88,7 +87,6 @@ export default function About({
           <div
             className="
               relative
-              
               bg-[#a8a394]/40
               shadow-sm md:shadow-lg
               py-6 px-6 sm:px-8
@@ -124,16 +122,16 @@ export default function About({
             </h2>
 
             {text ? (
-              <p className="whitespace-pre-line">{text}</p>
+              <p className="whitespace-pre-line ">{text}</p>
             ) : (
               <>
-                <p className="pb-3">
+                <p className="pb-3 text-shadow-sm ">
                   vagyok és 42 évesen döntöttem úgy, hogy szeretnék egy olyan hivatást,
                   ahol valóban közel kerülhetek az emberekhez – ahol segíthetek nekik,
                   és hozzájárulhatok életminőségük javításához. 2018-ban végeztem el
                   a pedikűrös képzését.
                 </p>
-                <p className="pb-3">
+                <p className="pb-3 text-shadow-sm">
                   Már az első pillanattól tudtam, hogy a{" "}
                   <span className="about-highlight">problémás lábak ápolása</span> lesz az utam.
                   Az elmúlt hét évben folyamatosan fejlesztem a tudásomat, mert úgy gondolom,
@@ -144,7 +142,7 @@ export default function About({
                   és minden láb egy történetet hordoz. A legnagyobb öröm számomra, amikor valaki fájdalommal
                   vagy bizonytalansággal érkezik, és mosolyogva, megkönnyebbülten, fájdalom nélkül távozik.
                 </p>
-                <p className="pb-3">
+                <p className="pb-3 text-shadow-sm">
                   <span className="about-highlight">
                     Ezekért a pillanatokért érdemes ezt a hivatást választani.
                   </span>{" "}

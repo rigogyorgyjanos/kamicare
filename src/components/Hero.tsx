@@ -55,10 +55,10 @@ const ctaItem: Variants = {
 
 export default function Hero({
   backgroundUrl = bgImage,
-  title = "Gyógypedikűr, amiben tényleg megbízhatsz",
-  subtitle = "Tapasztalt és segítőkész szakember vár szakszerű gyógypedikűr kezelésekre barátságos, kényelmes budapesti szalonban.",
+  title = "KamiCare pedikűr",
+  subtitle = "Nincs csúnya láb csak problémás",
   bookHref = "#elerhetoseg",
-  servicesHref = "#szolgaltatasok",
+  servicesHref = "/szolgaltatasok",
 }: HeroProps) {
   return (
     <section className="relative -mt-16 min-h-[80vh] flex items-center justify-center overflow-hidden">
@@ -69,7 +69,7 @@ export default function Hero({
         className="absolute inset-0 bg-fixed bg-cover bg-no-repeat"
       />
       {/* Halványítás */}
-      <div aria-hidden className="absolute inset-0 bg-black/70" />
+      <div aria-hidden className="absolute inset-0 bg-gray-900/50" />
 
       {/* Tartalom */}
       <div className="relative z-10 mx-auto max-w-3xl px-4 pt-20 text-center">
@@ -81,13 +81,13 @@ export default function Hero({
         >
           <motion.h1
             variants={textItem}
-            className="text-3xl sm:text-5xl font-bold leading-tight text-white drop-shadow"
+            className=" font-handwritten tracking-wider text-5xl sm:text-6xl font-bold leading-tight text-white drop-shadow "
           >
             {title}
           </motion.h1>
           <motion.p
             variants={textItem}
-            className="mt-4 text-base sm:text-lg text-white/75"
+            className="mt-8 text-base sm:text-lg text-white/75 "
           >
             {subtitle}
           </motion.p>

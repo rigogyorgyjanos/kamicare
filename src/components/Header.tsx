@@ -2,13 +2,14 @@ import React, { useEffect, useState, useRef } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { Menu, X } from "lucide-react";
 
+
 type NavItem = { href: string; label: string };
 const NAV_ITEMS: NavItem[] = [
-  { href: "#bemutatkozas", label: "Bemutatkozás" },
-  { href: "#szolgaltatasok", label: "Szolgáltatásaink és Árak" },
-  { href: "#elerhetoseg", label: "Elérhetőség" },
-  { href: "#hazirend", label: "Házirend" },
-  { href: "#galeria", label: "Galéria" },
+  { href: "/#bemutatkozas", label: "Bemutatkozás" },
+  { href: "/szolgaltatasok", label: "Szolgáltatásaink és Árak" },
+  { href: "/#elerhetoseg", label: "Elérhetőség" },
+  { href: "/hazirend", label: "Házirend" },
+  { href: "/munkaim", label: "Munkáim" },
 ];
 
 function useLockBodyScroll(locked: boolean) {
@@ -64,14 +65,13 @@ export default function Navbar({ logoText = "KamiCare" }: { logoText?: string })
 
   return (
     <header
-      className={`sticky top-0 z-50 transition-colors duration-300 ${
-        (scrolled || open) ? "bg-[#a8a394] shadow-xl" : "bg-transparent"
-      }`}
+      className={`sticky top-0 z-50 transition-colors duration-300 ${(scrolled || open) ? "bg-[#a8a394] shadow-xl" : "bg-transparent"
+        }`}
     >
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
-          <a href="#top" className={`font-semibold tracking-wide text-2xl ${(scrolled || open ? "text-[#9a7142]" : "text-[#d6b277]" )} `}>
+          <a href="/" className={` font-handwritten font- tracking-wider text-2xl ${(scrolled || open ? "text-[#9a7142]" : "text-[#d6b277]")} `}>
             {logoText}
           </a>
 
@@ -82,7 +82,7 @@ export default function Navbar({ logoText = "KamiCare" }: { logoText?: string })
                 key={item.href}
                 href={item.href}
                 className={`
-                  ${(scrolled || open ? "text-[#9a7142]" : "text-[#d6b277]" )}
+                  ${(scrolled || open ? "text-[#9a7142]" : "text-[#d6b277]")}
                    hover:text-[#9a7142] stroke-2 stroke-black transition-colors text-md font-medium relative after:absolute after:left-0 after:-bottom-1 after:h-0.5 after:w-0 after:bg-[#9a7142] after:transition-all hover:after:w-full`}
               >
                 {item.label}
@@ -96,7 +96,7 @@ export default function Navbar({ logoText = "KamiCare" }: { logoText?: string })
             className="md:hidden inline-flex items-center justify-center px-3 py-2"
             onClick={() => setOpen((v) => !v)}
           >
-            {open ? <X color="#9a7142" className="h-5 w-5 " /> : <Menu className="h-5 w-5 text-[#9a7142]" strokeWidth={2} />}
+            {open ? <X color="#9a7142" className="h-5 w-5 " /> : <Menu className={` h-5 w-5 ${(scrolled || open ? "text-[#9a7142]" : "text-[#d6b277]")}  `} strokeWidth={2} />}
           </button>
         </div>
       </div>
@@ -118,8 +118,8 @@ export default function Navbar({ logoText = "KamiCare" }: { logoText?: string })
               <div className="mx-auto flex h-full max-w-6xl flex-col px-6 py-6">
                 <div className="flex items-center justify-between">
                   <a
-                    href="#top"
-                    className="font-semibold tracking-wide text-[#9a7142] text-xl"
+                    href="/"
+                    className="font-handwritten font-semibold tracking-wide text-[#9a7142] text-xl"
                     onClick={() => setOpen(false)}
                   >
                     {logoText}
@@ -129,7 +129,7 @@ export default function Navbar({ logoText = "KamiCare" }: { logoText?: string })
                     className="inline-flex items-center justify-center px-3 py-2"
                     onClick={() => setOpen(false)}
                   >
-                   <X color="#9a7142" className="h-5 w-5 " />
+                    <X color="#9a7142" className="h-5 w-5 " />
                   </button>
                 </div>
 
