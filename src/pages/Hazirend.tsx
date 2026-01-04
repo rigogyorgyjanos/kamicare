@@ -81,6 +81,9 @@ const Hazirend = () => {
                     <p className="mb-3">
                         A kezelések egymást követik, csúszás ledolgozására nincs lehetőség.
                     </p>
+                    <p className="mb-3">
+                        Késés esetén a kezelésre szánt időtartam lerövidül és nem biztos, hogy a kért teljes szolgáltatás elvégezhető. Kifizetni viszont a teljes kezelést szükséges. Ezt mindenképpen megbeszéljük érkezésekor.
+                    </p>
                 </div>
 
                 {/* Lemondás */}
@@ -95,6 +98,12 @@ const Hazirend = () => {
                     <p className="mb-3">
                         Az aznapi lemondás esetén a kezelés teljes díja fizetendő.
                     </p>
+                    <div className='mb-3'>
+                        <p>Az időpont tetszés szerint, a szabad kapacitásom függvényében módosítható, azonban kérem, vegye figyelembe az alábbiakat.</p> </div> <div className='mb-3'> <p>Kötelezettségek nélkül időpontot módosítani vagy lemondani legkésőbb az időpont előtt 24 órával van lehetőség. Így lehetőségem nyílik arra, hogy az adott időpontot más Vendég számára felajánljam, vagy a várólistán szereplők közül valaki igénybe vehesse.</p> </div> <div className='mb-3'> <p>Az aznapi lemondást nem tudom elfogadni, mivel a munkarendem és az időbeosztásom is előre tervezett. Az ilyen esetekben a kezelés teljes díja fizetendő, mint le nem mondott vagy igénybe nem vett szolgáltatás.</p>
+                    </div>
+                    <div className='mb-3'>
+                        <p>Amennyiben valaki nyomós indok nélkül nem mondja le időpontját, és nem jelenik meg, sajnos a továbbiakban nem tudok számára újabb időpontot biztosítani. Kérem, tartsuk tiszteletben egymás idejét.</p>
+                    </div>
                 </div>
 
                 {/* Betegség */}
@@ -105,10 +114,14 @@ const Hazirend = () => {
                     </div>
                     <div>
                         <div className='mb-3'>
-                            <p>Az időpont tetszés szerint, a szabad kapacitásom függvényében módosítható, azonban kérem, vegye figyelembe az alábbiakat.</p> </div> <div className='mb-3'> <p>Kötelezettségek nélkül időpontot módosítani vagy lemondani legkésőbb az időpont előtt 24 órával van lehetőség. Így lehetőségem nyílik arra, hogy az adott időpontot más Vendég számára felajánljam, vagy a várólistán szereplők közül valaki igénybe vehesse.</p> </div> <div className='mb-3'> <p>Az aznapi lemondást nem tudom elfogadni, mivel a munkarendem és az időbeosztásom is előre tervezett. Az ilyen esetekben a kezelés teljes díja fizetendő, mint le nem mondott vagy igénybe nem vett szolgáltatás.</p>
+                            <p>
+                                Megbetegedés esetén a saját, a többi vendég és a szalonban dolgozók egészsége érdekében az időpont lemondása, vagy jelzése szükséges.
+                            </p>
                         </div>
-                        <div className='mb-3'>
-                            <p>Amennyiben valaki nyomós indok nélkül nem mondja le időpontját, és nem jelenik meg, sajnos a továbbiakban nem tudok számára újabb időpontot biztosítani. Kérem, tartsuk tiszteletben egymás idejét.</p>
+                        <div className="mb-3">
+                            <p>
+                                Saját betegségünk esetén azonnal értesítjük és egyeztetünk mihamarabbi időpontot a következő kezelésre. Megértését köszönjük!
+                            </p>
                         </div>
                     </div>
                 </div>

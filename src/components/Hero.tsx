@@ -87,7 +87,7 @@ export default function Hero({
           </motion.h1>
           <motion.p
             variants={textItem}
-            className="mt-8 text-base sm:text-lg text-white/75 "
+            className="mt-8 text-xl text-white "
           >
             {subtitle}
           </motion.p>

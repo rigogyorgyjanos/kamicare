@@ -6,7 +6,7 @@ const servicesList = [
     },
     {
         name: "Problémás lábápolás",
-        price: "12.000.- / 20.000.-",
+        price: "12.000.-tól",
         description: "fertőtlenítő áztatás vagy lemosás, vastag bőrkeményedés eltávolítása, sarokrepedés tisztítása, megvastagodott körömkezelés, ápoló krémezés",
     },
     {
@@ -30,7 +30,7 @@ const servicesList = [
         description: "nikkel-titán ötvözet dróttal végzett, fájdalommentes eljárás, amely a benőtt vagy torz köröm növekedését korrigálja",
     },
     {
-        name: "IMKOR Körömszabályozás",
+        name: "IMKOR pántos Körömszabályozás",
         price: "9.000.- / öregujj\n4500.- / kisujj",
         description: "fájdalommentes, sima lakkal lakkozható, sportolóknak, izzadékony és diabéteszes lábra",
     },
@@ -41,7 +41,7 @@ const servicesList = [
     },
     {
         name: "Vadhúsos benőtt köröm kezelése",
-        price: "9500.- / oldal\n14.000.- / mindkét oldal",
+        price: "11.000.- ",
         description: "kimetszést követően hatóanyagos tamponálás, vadhús ápolása, szakszerű kötözés",
     },
     {

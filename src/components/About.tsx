@@ -1,3 +1,5 @@
+import meImage from "../assets/me.jpeg";
+
 type AboutProps = {
   id?: string;
   name?: string;
@@ -8,7 +10,6 @@ type AboutProps = {
 export default function About({
   id = "bemutatkozas",
   name = "Szépelyi Kamilla",
-  motto = "Nincs csúnya láb, csak problémás.",
   text,
 }: AboutProps) {
   return (
@@ -51,26 +52,12 @@ export default function About({
                  
               "
             />
-
-            <blockquote className="relative ">
-              <span
-                aria-hidden
-                className="absolute -top-6 left-0 text-5xl leading-none select-none"
-              >
-                “
-              </span>
-              <p className="text-xl sm:text-2xl font-semibold italic text-[#9a7142] text-center">
-                {motto}
-              </p>
-              <span
-                aria-hidden
-                className="absolute -bottom-10 right-0 text-5xl leading-none select-none"
-              >
-                ”
-              </span>
-            </blockquote>
+            {/* BAL oldal */}
+            <div>
+              <img className="border border-[#d6b277] " src={meImage} alt="Me image"  />
+            </div>
           </div>
-
+ 
           {/* GERINC / ELVÁLASZTÓ – csak desktopon látszik */}
           <div
             aria-hidden
