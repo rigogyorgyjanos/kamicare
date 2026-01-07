@@ -64,7 +64,7 @@ export default function About({
             className="
               hidden md:block w-[3px]
               bg-linear-to-b
-              from-[#d6b277] via-[#9a7142]/60 to-[#d6b277]
+              from-[#d6b277] via-[#6B4A1E]/60 to-[#d6b277]
               shadow-[inset_0_0_6px_rgba(0,0,0,0.25)]
               rounded-full
             "
@@ -104,7 +104,7 @@ export default function About({
               "
             />
 
-            <h2 className="text-2xl pb-2 underline underline-offset-8 decoration-[#9a7142]/60">
+            <h2 className="text-2xl pb-2 underline underline-offset-8 decoration-[#6B4A1E]/60">
               {name}
             </h2>
 

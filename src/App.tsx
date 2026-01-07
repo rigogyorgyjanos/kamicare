@@ -38,9 +38,9 @@ function Home() {
       <ContactBrief />
       <About />
       <Contact
-        phone="+36 30 123 4567"
+        phone="+36 30/388-0467"
         address="1157 Budapest, Zsókavár utca 52. földszint"
-        note="Nyitvatartás: H–P 7:00–20:00 "
+        note="Nyitvatartás: H–P 6:00–20:00 "
       />
     </>
   );

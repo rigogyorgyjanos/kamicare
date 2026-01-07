@@ -54,7 +54,7 @@ const Hazirend = () => {
 
                 {/* Appointment booking */}
                 <div className="mb-5 bg-[#a8a394]/40 p-3 backdrop-blur-sm">
-                    <div className="flex gap-2 items-center justify-center text-xl mb-5 bg-[#a8a394] p-3 text-[#9a7142]">
+                    <div className="flex gap-2 items-center justify-center text-xl mb-5 bg-[#a8a394] p-3 text-[#6B4A1E]">
                         <FaRegCalendarAlt />
                         <span>Időpontfoglalás, bejelentkezés</span>
                     </div>
@@ -88,7 +88,7 @@ const Hazirend = () => {
 
                 {/* Lemondás */}
                 <div className="mb-5 bg-[#a8a394]/40 p-3 backdrop-blur-sm">
-                    <div className="flex gap-2 items-center justify-center text-xl mb-5 bg-[#a8a394] p-3 text-[#9a7142]">
+                    <div className="flex gap-2 items-center justify-center text-xl mb-5 bg-[#a8a394] p-3 text-[#6B4A1E]">
                         <TbCalendarOff />
                         <span>Lemondás, időpont-változtatás</span>
                     </div>
@@ -128,7 +128,7 @@ const Hazirend = () => {
 
                 {/* Fizetés */}
                 <div className="mb-5 bg-[#a8a394]/40 p-3 backdrop-blur-sm">
-                    <div className="flex gap-2 items-center justify-center text-xl mb-5 bg-[#a8a394] p-3 text-[#9a7142]">
+                    <div className="flex gap-2 items-center justify-center text-xl mb-5 bg-[#a8a394] p-3 text-[#6B4A1E]">
                         <LiaWalletSolid />
                         <span>Fizetés</span>
                     </div>

@@ -71,7 +71,7 @@ export default function Navbar({ logoText = "KamiCare" }: { logoText?: string })
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
-          <a href="/" className={` font-handwritten font- tracking-wider text-2xl ${(scrolled || open ? "text-[#9a7142]" : "text-[#d6b277]")} `}>
+          <a href="/" className={` font-handwritten font- tracking-wider text-2xl ${(scrolled || open ? "text-[#6B4A1E]" : "text-[#d6b277]")} `}>
             {logoText}
           </a>
 
@@ -82,8 +82,8 @@ export default function Navbar({ logoText = "KamiCare" }: { logoText?: string })
                 key={item.href}
                 href={item.href}
                 className={`
-                  ${(scrolled || open ? "text-[#9a7142]" : "text-[#d6b277]")}
-                   hover:text-[#9a7142] stroke-2 stroke-black transition-colors text-md font-medium relative after:absolute after:left-0 after:-bottom-1 after:h-0.5 after:w-0 after:bg-[#9a7142] after:transition-all hover:after:w-full`}
+                  ${(scrolled || open ? "text-[#6B4A1E]" : "text-[#d6b277]")}
+                   hover:text-[#6B4A1E] stroke-2 stroke-black transition-colors text-md font-medium relative after:absolute after:left-0 after:-bottom-1 after:h-0.5 after:w-0 after:bg-[#6B4A1E] after:transition-all hover:after:w-full`}
               >
                 {item.label}
               </a>
@@ -96,7 +96,7 @@ export default function Navbar({ logoText = "KamiCare" }: { logoText?: string })
             className="md:hidden inline-flex items-center justify-center px-3 py-2"
             onClick={() => setOpen((v) => !v)}
           >
-            {open ? <X color="#9a7142" className="h-5 w-5 " /> : <Menu className={` h-5 w-5 ${(scrolled || open ? "text-[#9a7142]" : "text-[#d6b277]")}  `} strokeWidth={2} />}
+            {open ? <X color="#6B4A1E" className="h-5 w-5 " /> : <Menu className={` h-5 w-5 ${(scrolled || open ? "text-[#6B4A1E]" : "text-[#d6b277]")}  `} strokeWidth={2} />}
           </button>
         </div>
       </div>
@@ -119,7 +119,7 @@ export default function Navbar({ logoText = "KamiCare" }: { logoText?: string })
                 <div className="flex items-center justify-between">
                   <a
                     href="/"
-                    className="font-handwritten font-semibold tracking-wide text-[#9a7142] text-xl"
+                    className="font-handwritten font-semibold tracking-wide text-[#6B4A1E] text-xl"
                     onClick={() => setOpen(false)}
                   >
                     {logoText}
@@ -129,7 +129,7 @@ export default function Navbar({ logoText = "KamiCare" }: { logoText?: string })
                     className="inline-flex items-center justify-center px-3 py-2"
                     onClick={() => setOpen(false)}
                   >
-                    <X color="#9a7142" className="h-5 w-5 " />
+                    <X color="#6B4A1E" className="h-5 w-5 " />
                   </button>
                 </div>
 
@@ -147,7 +147,7 @@ export default function Navbar({ logoText = "KamiCare" }: { logoText?: string })
                         <a
                           href={item.href}
                           onClick={() => setOpen(false)}
-                          className="text-lg sm:text-3xl font-semibold text-[#9a7142]/75 hover:text-[#9a7142]"
+                          className="text-lg sm:text-3xl font-semibold text-[#6B4A1E]/75 hover:text-[#6B4A1E]"
                         >
                           {item.label}
                         </a>
@@ -157,7 +157,7 @@ export default function Navbar({ logoText = "KamiCare" }: { logoText?: string })
                 </div>
 
                 <hr className="text-[#d6b277] mb-2" />
-                <div className="pb-6 text-center text-xs text-[#9a7142]">
+                <div className="pb-6 text-center text-xs text-[#6B4A1E]">
                   <p>© {new Date().getFullYear()} {logoText}. Minden jog fenntartva.</p>
                 </div>
               </div>

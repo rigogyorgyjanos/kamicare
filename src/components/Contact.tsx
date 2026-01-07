@@ -34,13 +34,13 @@ export default function Contact({
             <div className="flex flex-col gap-4 bg-[#c1c6c1] w-l items-center py-4 shadow-2xl">
               <div className="flex flex-col gap-3 ">
                 <div className="flex flex-row gap-2 items-end m-auto">
-                  <Phone className="mt-0.5 h-5 w-5 text-[#9a7142]" />
-                  <p className="text-sm uppercase tracking-wide text-[#9a7142] ">Telefon</p>
+                  <Phone className="mt-0.5 h-5 w-5 text-[#6B4A1E]" />
+                  <p className="text-sm uppercase tracking-wide text-[#6B4A1E] ">Telefon</p>
                 </div>
                 <div>
                   <a
                     href={telHref}
-                    className="text-lg  font-semibold text-[#2b2a29] hover:underline"
+                    className="text-lg font-semibold text-[#2b2a29] hover:underline"
                   >
                     {phone}
                   </a>
@@ -49,8 +49,8 @@ export default function Contact({
 
               <div className="flex flex-col  gap-3">
                 <div className="flex flex-row gap-2 items-end m-auto">
-                  <MapPin className="mt-0.5 h-5 w-5 text-[#9a7142]" />
-                  <p className="text-md uppercase tracking-wide text-[#9a7142]">Cím</p>
+                  <MapPin className="mt-0.5 h-5 w-5 text-[#6B4A1E]" />
+                  <p className="text-md uppercase tracking-wide text-[#6B4A1E]">Cím</p>
                 </div>
                 <div>
                   <a
@@ -75,7 +75,7 @@ export default function Contact({
                   href={mapLink}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2  border border-[#9a7142] px-4 py-2 font-medium text-[#9a7142] hover:bg-white transition-colors"
+                  className="inline-flex items-center gap-2  border border-[#6B4A1E] px-4 py-2 font-medium text-[#6B4A1E] hover:bg-white transition-colors"
                 >
                   <Navigation className="h-4 w-4" />
                   Útvonal tervezése

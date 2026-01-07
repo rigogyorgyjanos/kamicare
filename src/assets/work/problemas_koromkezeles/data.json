@@ -1,3 +1,11 @@
 {
-  "title": "Problémás köröm kezelése"
+  "title": "Problémás köröm kezelése",
+  "blur": true,
+  "descriptions": {
+    "1_IMG_5378.jpeg": "Előtte",
+    "2_IMG_5379.jpeg": "Utána",
+    "3_IMG_8843.jpeg": "6 hónapra rá",
+    "IMG_8643.jpeg": "Előtte",
+    "IMG_8644.jpeg": "Utána"
+  }
 }

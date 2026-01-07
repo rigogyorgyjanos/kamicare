@@ -29,3 +29,18 @@ body {
     color: #9a7142;
     font-weight: bold;
 }
+
+/* Nyilak színe + méret */
+.custom-swiper .swiper-button-next,
+.custom-swiper .swiper-button-prev {
+    color: #d6b277;
+    transform: scale(0.75);
+    /* kisebb nyilak */
+}
+
+/* Hover finomítás */
+.custom-swiper .swiper-button-next:hover,
+.custom-swiper .swiper-button-prev:hover {
+    color: #e6cfa0;
+}
+

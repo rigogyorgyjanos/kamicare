@@ -1,3 +1,8 @@
 {
-  "title": "Benőtt köröm kezelése"
+  "title": "Benőtt köröm kezelése",
+  "blur":true,
+   "descriptions": {
+    "IMG_8846.jpeg": "Előtte",
+    "IMG_8847.jpeg": "Utána"
+  }
 }

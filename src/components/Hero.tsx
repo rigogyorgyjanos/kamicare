@@ -103,7 +103,7 @@ export default function Hero({
           <motion.a
             variants={ctaItem}
             href={bookHref}
-            className="min-w-64 min-h-8 inline-flex items-center justify-center px-6 py-3 text-sm font-semibold text-white bg-[#9a7142] shadow-md hover:shadow-lg transition-shadow focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-[#9a7142]"
+            className="min-w-64 min-h-8 inline-flex items-center justify-center px-6 py-3 text-sm font-semibold text-white bg-[#6B4A1E] shadow-md hover:shadow-lg transition-shadow focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-[#6B4A1E]"
           >
             Időpontfoglalás
           </motion.a>
@@ -111,7 +111,7 @@ export default function Hero({
           <motion.a
             variants={ctaItem}
             href={servicesHref}
-            className="min-w-64 min-h-8 inline-flex items-center justify-center px-6 py-3 text-sm font-semibold text-[#9a7142] border border-[#9a7142] bg-white/70 backdrop-blur hover:bg-white transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-[#9a7142]"
+            className="min-w-64 min-h-8 inline-flex items-center justify-center px-6 py-3 text-sm font-semibold text-[#6B4A1E] border border-[#6B4A1E] bg-white/70 backdrop-blur hover:bg-white transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-[#6B4A1E]"
           >
             Szolgáltatásaink
           </motion.a>
